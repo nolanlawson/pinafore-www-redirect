@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["www.pinafore.social"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://pinafore.social/$1" }
+    }
+  ]
+}
